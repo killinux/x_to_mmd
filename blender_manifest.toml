@@ -1,0 +1,14 @@
+schema_version = "1.0.0"
+
+id = "x_to_mmd"
+version = "0.1.0"
+name = "XPS to MMD"
+tagline = "Convert XPS/XNALara models to MMD (PMX)"
+maintainer = "x_to_mmd"
+type = "add-on"
+
+blender_version_min = "4.2.0"
+license = ["SPDX:GPL-3.0-or-later"]
+tags = ["Import-Export", "Rigging"]
+
+# mmd_tools is a soft runtime dependency (used for PMX export); not bundled.
